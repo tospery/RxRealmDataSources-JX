@@ -1,0 +1,6 @@
+framework module RxRealmDataSources_JX {
+  umbrella header "RxRealmDataSources-JX-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
