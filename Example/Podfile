@@ -16,7 +16,7 @@ abstract_target 'Demo' do
   end
 end
 
-# for the transitional period to swift4
+# for the transitional period to swift5.0
 post_install do |installer|
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
